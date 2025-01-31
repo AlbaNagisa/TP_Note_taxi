@@ -1,0 +1,464 @@
+[
+  {
+    "name": "Paris AutoDrive",
+    "city": "Paris",
+    "address": "123 Rue de Paris, Paris, France",
+    "founded_year": 2008,
+    "fleet_size": 4,
+    "contact_email": "info@parisautodrive.com",
+    "contact_phone": "+33-1-2345-6789",
+    "taxis": [
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2020,
+        "license_plate": "AA-123-BB",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 75,
+        "current_status": "available",
+        "location": { "lat": 48.8566, "lon": 2.3522 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2018,
+        "license_plate": "CC-456-DD",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 60,
+        "current_status": "in_maintenance",
+        "location": { "lat": 48.8577, "lon": 2.3500 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2019,
+        "license_plate": "EE-789-FF",
+        "manufacturer": "Waymo",
+        "battery_capacity_kwh": 80,
+        "current_status": "occupied",
+        "location": { "lat": 48.8555, "lon": 2.3566 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2021,
+        "license_plate": "GG-012-HH",
+        "manufacturer": "Nissan",
+        "battery_capacity_kwh": 50,
+        "current_status": "available",
+        "location": { "lat": 48.8584, "lon": 2.3488 }
+      }
+    ]
+  },
+  {
+    "name": "Nice Rides",
+    "city": "Nice",
+    "address": "123 Rue de Nice, Nice, France",
+    "founded_year": 2011,
+    "fleet_size": 3,
+    "contact_email": "contact@nicerides.com",
+    "taxis": [
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "II-345-JJ",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 90,
+        "current_status": "available",
+        "location": { "lat": 43.7000, "lon": 7.2500 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2020,
+        "license_plate": "KK-678-LL",
+        "manufacturer": "BMW",
+        "battery_capacity_kwh": 85,
+        "current_status": "occupied",
+        "location": { "lat": 43.7022, "lon": 7.2580 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2022,
+        "license_plate": "MM-901-NN",
+        "manufacturer": "Mercedes",
+        "battery_capacity_kwh": 100,
+        "current_status": "charging",
+        "location": { "lat": 43.6950, "lon": 7.2650 }
+      }
+    ]
+  },
+  {
+    "name": "Lyon Mobility",
+    "address": "456 Rue de Lyon, Lyon, France",
+    "city": "Lyon",
+    "founded_year": 2008,
+    "contact_email": "support@lyonmobility.fr",
+    "contact_phone": "+33-4-7200-1234",
+    "fleet_size": 5,
+    "taxis": [
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2018,
+        "license_plate": "OO-234-PP",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 65,
+        "current_status": "available",
+        "location": { "lat": 45.7640, "lon": 4.8357 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2020,
+        "license_plate": "QQ-567-RR",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 75,
+        "current_status": "occupied",
+        "location": { "lat": 45.7600, "lon": 4.8330 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2019,
+        "license_plate": "SS-890-TT",
+        "manufacturer": "Waymo",
+        "battery_capacity_kwh": 85,
+        "current_status": "charging",
+        "location": { "lat": 45.7635, "lon": 4.8375 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2021,
+        "license_plate": "UU-123-VV",
+        "manufacturer": "Audi",
+        "battery_capacity_kwh": 70,
+        "current_status": "in_maintenance",
+        "location": { "lat": 45.7667, "lon": 4.8375 }
+      },
+      {
+        "taxi_id": "L-3005",
+        "autonomy_level": 5,
+        "year_of_production": 2023,
+        "license_plate": "WW-456-XX",
+        "manufacturer": "BMW",
+        "battery_capacity_kwh": 95,
+        "current_status": "available",
+        "location": { "lat": 45.7625, "lon": 4.8340 }
+      }
+    ]
+  },
+  {
+    "name": "Marseille RoboTaxis",
+    "address": "789 Rue de Marseille, Marseille, France",
+    "city": "Marseille",
+    "founded_year": 2012,
+    "fleet_size": 6,
+    "taxis": [
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2019,
+        "license_plate": "YY-123-XX",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 80,
+        "current_status": "available",
+        "location": { "lat": 43.2965, "lon": 5.3698 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2020,
+        "license_plate": "AA-477-CC",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 70,
+        "current_status": "occupied",
+        "location": { "lat": 43.3000, "lon": 5.3750 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "CC-985-JI",
+        "manufacturer": "Waymo",
+        "battery_capacity_kwh": 90,
+        "current_status": "charging",
+        "location": { "lat": 43.2975, "lon": 5.3725 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2018,
+        "license_plate": "FE-619-FE",
+        "manufacturer": "Mercedes",
+        "battery_capacity_kwh": 60,
+        "current_status": "in_maintenance",
+        "location": { "lat": 43.2950, "lon": 5.3650 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2022,
+        "license_plate": "GG-345-HH",
+        "manufacturer": "Audi",
+        "battery_capacity_kwh": 100,
+        "current_status": "available",
+        "location": { "lat": 43.2990, "lon": 5.3670 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2017,
+        "license_plate": "II-678-JJ",
+        "manufacturer": "Nissan",
+        "battery_capacity_kwh": 55,
+        "current_status": "occupied",
+        "location": { "lat": 43.2985, "lon": 5.3710 }
+      }
+    ]
+  },
+  {
+    "name": "Nice AutoShuttle",
+    "address": "101 Rue de Nice, Nice, France",
+    "city": "Nice",
+    "founded_year": 2016,
+    "fleet_size": 7,
+    "contact_email": "contact@niceautoshuttle.fr",
+    "contact_phone": "+33-4-9388-1122",
+    "taxis": [
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2020,
+        "license_plate": "DM-843-LM",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 85,
+        "current_status": "available",
+        "location": { "lat": 43.6956, "lon": 7.2592 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2018,
+        "license_plate": "MM-456-NN",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 70,
+        "current_status": "occupied",
+        "location": { "lat": 43.7002, "lon": 7.2655 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "OO-789-PP",
+        "manufacturer": "Waymo",
+        "battery_capacity_kwh": 95,
+        "current_status": "charging",
+        "location": { "lat": 43.6940, "lon": 7.2550 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2017,
+        "license_plate": "QQ-012-RR",
+        "manufacturer": "Mercedes",
+        "battery_capacity_kwh": 60,
+        "current_status": "available",
+        "location": { "lat": 43.6930, "lon": 7.2580 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2022,
+        "license_plate": "SS-345-TT",
+        "manufacturer": "BMW",
+        "battery_capacity_kwh": 90,
+        "current_status": "in_maintenance",
+        "location": { "lat": 43.6965, "lon": 7.2610 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2019,
+        "license_plate": "UU-678-VV",
+        "manufacturer": "Audi",
+        "battery_capacity_kwh": 100,
+        "current_status": "occupied",
+        "location": { "lat": 43.6980, "lon": 7.2620 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2016,
+        "license_plate": "WW-901-XX",
+        "manufacturer": "Nissan",
+        "battery_capacity_kwh": 50,
+        "current_status": "available",
+        "location": { "lat": 43.6950, "lon": 7.2600 }
+      }
+    ]
+  },
+  {
+    "name": "SmartDrive",
+    "address": "202 Rue de Paris, Paris, France",
+    "city": "Paris",
+    "founded_year": 2014,
+    "fleet_size": 8,
+    "contact_email": "info@smartdrive.prs",
+    "contact_phone": "+33-4-7289-3344",
+    "taxis": [
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "YY-123-ZZ",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 90,
+        "current_status": "available",
+        "location": { "lat": 45.7565, "lon": 4.8450 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2020,
+        "license_plate": "AA-456-BB",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 75,
+        "current_status": "occupied",
+        "location": { "lat": 45.7592, "lon": 4.8438 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2019,
+        "license_plate": "CC-789-DD",
+        "manufacturer": "Waymo",
+        "battery_capacity_kwh": 95,
+        "current_status": "charging",
+        "location": { "lat": 45.7600, "lon": 4.8440 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2018,
+        "license_plate": "EE-012-FF",
+        "manufacturer": "Mercedes",
+        "battery_capacity_kwh": 80,
+        "current_status": "available",
+        "location": { "lat": 45.7580, "lon": 4.8490 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2021,
+        "license_plate": "FF-345-GG",
+        "manufacturer": "BMW",
+        "battery_capacity_kwh": 85,
+        "current_status": "in_maintenance",
+        "location": { "lat": 45.7575, "lon": 4.8455 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2020,
+        "license_plate": "GG-678-HH",
+        "manufacturer": "Audi",
+        "battery_capacity_kwh": 100,
+        "current_status": "occupied",
+        "location": { "lat": 45.7598, "lon": 4.8470 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2022,
+        "license_plate": "HH-901-II",
+        "manufacturer": "Nissan",
+        "battery_capacity_kwh": 95,
+        "current_status": "available",
+        "location": { "lat": 45.7550, "lon": 4.8430 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2017,
+        "license_plate": "II-234-JJ",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 80,
+        "current_status": "occupied",
+        "location": { "lat": 45.7588, "lon": 4.8415 }
+      }
+    ]
+  },
+  {
+    "name": "CityRide",
+    "address": "303 Rue de Marseille, Marseille, France",
+    "city": "Marseille",
+    "founded_year": 2015,
+    "fleet_size": 10,
+    "contact_email": "support@cityride.marseille",
+    "contact_phone": "+33-4-9192-3322",
+    "taxis": [
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "KK-123-LL",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 95,
+        "current_status": "available",
+        "location": { "lat": 43.2965, "lon": 5.3698 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2020,
+        "license_plate": "LL-456-MM",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 80,
+        "current_status": "occupied",
+        "location": { "lat": 43.2980, "lon": 5.3730 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "NN-789-OO",
+        "manufacturer": "Waymo",
+        "battery_capacity_kwh": 100,
+        "current_status": "charging",
+        "location": { "lat": 43.2975, "lon": 5.3705 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2019,
+        "license_plate": "PP-012-QQ",
+        "manufacturer": "Mercedes",
+        "battery_capacity_kwh": 60,
+        "current_status": "available",
+        "location": { "lat": 43.2955, "lon": 5.3680 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2022,
+        "license_plate": "RR-345-SS",
+        "manufacturer": "BMW",
+        "battery_capacity_kwh": 90,
+        "current_status": "in_maintenance",
+        "location": { "lat": 43.2960, "lon": 5.3710 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2020,
+        "license_plate": "TT-678-UU",
+        "manufacturer": "Audi",
+        "battery_capacity_kwh": 95,
+        "current_status": "occupied",
+        "location": { "lat": 43.2985, "lon": 5.3720 }
+      },
+      {
+        "autonomy_level": 5,
+        "year_of_production": 2021,
+        "license_plate": "VV-901-WW",
+        "manufacturer": "Nissan",
+        "battery_capacity_kwh": 85,
+        "current_status": "available",
+        "location": { "lat": 43.2970, "lon": 5.3695 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2018,
+        "license_plate": "XX-234-YY",
+        "manufacturer": "Tesla",
+        "battery_capacity_kwh": 80,
+        "current_status": "charging",
+        "location": { "lat": 43.2945, "lon": 5.3675 }
+      },
+      {
+        "autonomy_level": 3,
+        "year_of_production": 2017,
+        "license_plate": "ZZ-567-AA",
+        "manufacturer": "Renault",
+        "battery_capacity_kwh": 70,
+        "current_status": "in_maintenance",
+        "location": { "lat": 43.2950, "lon": 5.3700 }
+      },
+      {
+        "autonomy_level": 4,
+        "year_of_production": 2019,
+        "license_plate": "BB-890-CC",
+        "manufacturer": "Mercedes",
+        "battery_capacity_kwh": 85,
+        "current_status": "occupied",
+        "location": { "lat": 43.2962, "lon": 5.3692 }
+      }
+    ]
+  }
+]

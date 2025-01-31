@@ -1,0 +1,3 @@
+source .venv/bin/activate
+export COLLECTION_NAME=taxis
+export MQTT_TOPIC=autonomous_taxis/gps

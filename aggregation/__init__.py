@@ -1,0 +1,7 @@
+from .company_fleet_average_age import CompanyFleetAverageAge
+from .company_with_most_level_5_autonomy import CompanyWithMostLevel5Autonomy
+from .currently_stopped_cabs import CurrentlyStoppedCabs
+from .most_stopped_taxis import MostStoppedTaxis
+from .stopped_cabs_cities_asc import StoppedCabsCitiesAsc
+from .stopped_position_by_city import StoppedPositionByCity
+
