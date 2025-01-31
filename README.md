@@ -20,7 +20,6 @@ La plus part des installations qui vont suivre peuvent etre facultatives en fonc
 cp .envrc.dist .envrc
 ```
 
-```
 
 
 ```bash
